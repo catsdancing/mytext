@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主界面</title>
+    <link rel="stylesheet" href="./重置样式表/reset.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+</head>
+
+<body>
+    <div class="wrap-body">
+
+        <header>
+            <div class="zerogrid">
+                <div class="wrap-header">
+                    <div class="logo t-center">
+                        <a href="#"><img src="./img/log.jpeg"></a>
+                    </div>
+                    <ul class="shell">
+                        <li class="button">
+                            <a href="./index.html"><span>主界面</span></a>
+
+                        </li>
+                        <li class="button">
+                            <a href="./archive.html"><span>人物介绍</span></a>
+                        </li>
+                    </li>
+                        <li class="button">
+                            <a href="./single.html"> <span>剧情简介</span></a>
+                        </li>
+                        <li class="portrait">
+                            <ul class="information">
+                                <li>希望不熄，薪火永燃</li>
+                            </ul>
+                        <li class="button">
+                            <a href="./jizi.html"><span>游戏介绍</span></a>
+                        </li>
+                        <li class="button">
+                            <a href="./contact.html"><span>联系方法</span></a>
+                        </li>
+                        <li class="button">
+                            <a href="./report.html"><span>结业报告</span></a>
+                        </li>
+                        
+                    </ul>
+                    <div class="atupian"><img src="./img/beijing3.jpeg"></div>
+                </div>
+            </div>
+    </div>
+
+    </header>
+    <div class="body1">
+        <div class="box1"><img src="./img/tupian1.jpeg">薪炎之律者<br /> 薪炎の律者</div>
+        <div class="box2"><img src="./img/tupian2.jpeg">雷之律者<br />雷の律者</div>
+        <div class="box3"><img src="./img/tupian3.jpeg">理之律者<br />理の律者</div>
+    </div>
+    <div class="touming">
+        <div class="touming1">watching</div>
+    </div>
+    <div class="apartments">
+        <div class="biaoti">cg欣赏</div>
+        <section>
+            <video id="slider" src="./img/one.mp4" autoplay muted loop>
+            </video>
+            <ul class="navigation">
+                <li onclick="videoUrl('./img/one.mp4')"><img src="./img/one.jpeg"></li>
+                <li onclick="videoUrl('./img/two.mp4')"><img src="./img/two.jpeg"></li>
+                <li onclick="videoUrl('./img/three.mp4')"><img src="./img/three.jpeg"></li>
+                <li onclick="videoUrl('./img/four.mp4')"><img src="./img/four.jpeg"></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function videoUrl(hmmmmmm) {
+                document.getElementById("slider").src = hmmmmmm;
+            }
+        </script>
+    </div>
+    </div>
+    <div class="wbb" style="text-align: center; font-size: 18px; padding-top: 25px;">制作：物联1802班--王斌<br/>指导老师：王勇</p>
+    </div>
+</body>
+
+</html>
